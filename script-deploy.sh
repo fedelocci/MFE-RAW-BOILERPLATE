@@ -1,0 +1,1 @@
+npm run build && cd build/static/js && mv -f 2*.js vendor.js && mv -f main*.js main.js && mv -f runtime-main*.js runtime.js && rm -rf 3.* && rm -rf 4.* && rm -rf 5.* && rm -rf *.map  && rm -rf *.txt && cd ../../../
